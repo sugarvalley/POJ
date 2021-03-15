@@ -14,8 +14,8 @@ public class Task01 {
     public static void make_array(int size) {
         Scanner scanner = new Scanner(System.in);
         char[] array = new char[size];
-        for (int i=0; i<size; i++) {
-            System.out.println("Insert value " + (i+1));
+        for (int i = 0; i < size; i++) {
+            System.out.println("Insert value " + (i + 1));
             array[i] = scanner.next().charAt(0);
         }
         System.out.println(Arrays.toString(array));

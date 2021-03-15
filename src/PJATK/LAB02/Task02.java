@@ -64,10 +64,10 @@ public class Task02 {
     public static double median(int[] array) {
         int length = array.length / 2;
         double value = 0;
-        if (array.length%2!=0) {
+        if (array.length % 2 != 0) {
             value = array[length];
         } else {
-            value = (array[(length-1)] + array[length]) / 2;
+            value = (array[(length - 1)] + array[length]) / 2;
         }
         return value;
     }
