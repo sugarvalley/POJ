@@ -1,5 +1,6 @@
 package PJATK.LAB02;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task01 {
@@ -17,9 +18,6 @@ public class Task01 {
             System.out.println("Insert value " + (i+1));
             array[i] = scanner.next().charAt(0);
         }
-        System.out.println("Your array:");
-        for (int i=0; i<size; i++) {
-            System.out.print(array[i] + " ");
-        }
+        System.out.println(Arrays.toString(array));
     }
 }
