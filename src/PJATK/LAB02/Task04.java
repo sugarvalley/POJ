@@ -3,7 +3,7 @@ package PJATK.LAB02;
 
 public class Task04 {
     public static void main(String[] args) {
-        int[][] array = {{1, 2, 3, 4, 5}, {0, 0, 0, 0, 0}, {6, 7, 8, 9, 1}};
+        int[][] array = {{1, 2, 3, 4, 5}, {0, 0, 0, 0, 0}};
         show_array(array);
     }
 
