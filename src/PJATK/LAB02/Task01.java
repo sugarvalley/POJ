@@ -3,7 +3,7 @@ package PJATK.LAB02;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// Make array - ask user about size and values, then print array
+// Make array - ask user about size and values, then print the array
 
 public class Task01 {
     public static void main(String[] args) {
