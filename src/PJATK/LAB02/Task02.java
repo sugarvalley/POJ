@@ -3,6 +3,20 @@ package PJATK.LAB02;
 import java.util.Scanner;
 import java.util.Arrays;
 
+// Arrays - ask for the size, ask for first value, then:
+
+//  > add next values to the array - start from first value, next values have to be even
+
+//  > return the lowest value
+
+//  > return the highest value
+
+//  > return sum of the elements
+
+//  > return average
+
+//  > return median
+
 public class Task02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

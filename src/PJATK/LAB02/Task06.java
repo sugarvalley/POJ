@@ -1,5 +1,7 @@
 package PJATK.LAB02;
 
+// Euclidean algorithm
+
 public class Task06 {
     public static void main(String[] args) {
         int a = 40;

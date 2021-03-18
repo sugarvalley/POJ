@@ -1,5 +1,6 @@
 package PJATK.LAB02;
 
+// showing the array in a good form
 
 public class Task04 {
     public static void main(String[] args) {

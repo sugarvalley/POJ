@@ -3,6 +3,10 @@ package PJATK.LAB02;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// sum of 2 arrays
+
+// if array1.length != array2.length return empty array
+
 public class Task03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
