@@ -1,5 +1,7 @@
 package PJATK.LAB02;
 
+// sum of two arrays
+
 public class Task05 {
     public static void main(String[] args) {
         int[][] array1 = {{1, 2, 3, 4, 5}, {1, 1, 1, 1, 1}};
