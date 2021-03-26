@@ -1,4 +1,4 @@
-package PJATK.LAB03;
+package PJATK.LAB03.TASK03;
 
 public class TV {
     int channel;
