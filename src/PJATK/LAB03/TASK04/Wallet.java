@@ -1,4 +1,4 @@
-package PJATK.LAB03.TASK03;
+package PJATK.LAB03.TASK04;
 
 public class Wallet {
     double amount;
@@ -11,7 +11,7 @@ public class Wallet {
         return amount;
     }
 
-    public void buy(double amount) {
+    public void reduce(double amount) {
         this.amount -= amount;
     }
 }
