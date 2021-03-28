@@ -2,7 +2,7 @@ package PJATK.LAB03.TASK03;
 
 public class Main {
     public static void main(String[] args) {
-        TV tv = new TV(1,1,false);
+        TV tv = new TV(1, 1, false);
         Remote remote = new Remote(tv);
         System.out.println("Is ON?: " + remote.isOn());
         remote.channelUp();

@@ -3,7 +3,9 @@ package PJATK.LAB03.TASK05;
 public class MyCircle {
     double radius;
 
-    public MyCircle(double radius) { this.radius = radius; }
+    public MyCircle(double radius) {
+        this.radius = radius;
+    }
 
     public double diameter() {
         return radius * 2;

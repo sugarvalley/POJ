@@ -11,5 +11,7 @@ public class Square {
         return side * side;
     }
 
-    public int calcLength() { return side * 4; }
+    public int calcLength() {
+        return side * 4;
+    }
 }

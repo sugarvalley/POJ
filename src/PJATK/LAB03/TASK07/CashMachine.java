@@ -8,6 +8,7 @@ public class CashMachine {
     int choice;
     int amount;
     Account account;
+
     public CashMachine(Account account) {
         this.account = account;
         this.exit = true;

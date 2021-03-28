@@ -35,14 +35,14 @@ public class Main {
         enemies[3] = new Enemy("Mental Warrior", 2000, armors[3], weapons[3]);
 
         System.out.println("Choose your weapon:");
-        for (int i=0; i < weapons.length; i++) {
-            System.out.println("| " + (i+1) + " | " + weapons[i].name + "   | ATK: " + weapons[i].atk);
+        for (int i = 0; i < weapons.length; i++) {
+            System.out.println("| " + (i + 1) + " | " + weapons[i].name + "   | ATK: " + weapons[i].atk);
         }
         weaponChoice = scanner.nextInt() - 1;
 
         System.out.println("Choose your armor:");
-        for (int i=0; i < armors.length; i++) {
-            System.out.println("| " + (i+1) + " | " + armors[i].name + " | DEF: " + armors[i].def);
+        for (int i = 0; i < armors.length; i++) {
+            System.out.println("| " + (i + 1) + " | " + armors[i].name + " | DEF: " + armors[i].def);
         }
         armorChoice = scanner.nextInt() - 1;
 
@@ -59,7 +59,7 @@ public class Main {
 
         System.out.println("Choose your ENEMY!");
 
-        for(int i = 0; i < enemies.length; i++) {
+        for (int i = 0; i < enemies.length; i++) {
             System.out.println("--------------------");
             System.out.print("| " + (i + 1) + " ");
             enemies[i].showDetails();
@@ -72,7 +72,7 @@ public class Main {
         enemy.showDetails();
         System.out.println("--------------------");
         System.out.println();
-        int z=1;
+        int z = 1;
         while (player.hp > 0 && enemy.hp > 0) {
             enemy.takeDMG(player.giveDMG());
             player.takeDMG(enemy.giveDMG());
@@ -85,7 +85,7 @@ public class Main {
             System.out.println();
         }
         System.out.println();
-        if (player.hp <= 0 && enemy.hp <=0) {
+        if (player.hp <= 0 && enemy.hp <= 0) {
             System.out.println("------------------");
             System.out.println("| You both DIED! |");
             System.out.println("------------------");

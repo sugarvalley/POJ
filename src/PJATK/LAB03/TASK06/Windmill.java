@@ -26,9 +26,9 @@ public class Windmill {
     public void info() {
         System.out.println(
                 "Speed: " + this.speed
-                + " Is ON?: " + this.on
-                + " Radius: " + this.radius
-                + " Color: " + this.color
+                        + " Is ON?: " + this.on
+                        + " Radius: " + this.radius
+                        + " Color: " + this.color
         );
     }
 }
