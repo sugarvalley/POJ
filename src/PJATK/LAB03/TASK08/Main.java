@@ -1,7 +1,5 @@
 package PJATK.LAB03.TASK08;
 
-import javax.management.StandardEmitterMBean;
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Main {
