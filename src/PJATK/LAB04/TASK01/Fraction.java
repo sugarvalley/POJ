@@ -20,7 +20,7 @@ public class Fraction {
         if (numerator>=denominator) {
             int whole = numerator/denominator;
             int rest = numerator  % denominator;
-            return String.format("%d i %d/%d", whole, rest, denominator);
+            return String.format("%d and %d/%d", whole, rest, denominator);
         } else {
             return String.format("%d/%d", numerator, denominator);
         }
