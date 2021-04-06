@@ -9,12 +9,12 @@ public class Simulation {
         int numTries = scanner.nextInt();
         int numHeads = 0;
         Coin coin = new Coin();
-        for (int i=0; i<numTries; i++) {
+        for (int i = 0; i < numTries; i++) {
             coin.tossCoin();
             if (coin.isHeads()) {
                 numHeads++;
             }
         }
-        System.out.println((100 * numHeads)/(double)numTries + "% of heads | "+ (100*(numTries-numHeads))/(double)numTries + "% of tails | after " + numTries + " tosses");
+        System.out.println((100 * numHeads) / (double) numTries + "% of heads | " + (100 * (numTries - numHeads)) / (double) numTries + "% of tails | after " + numTries + " tosses");
     }
 }

@@ -17,9 +17,9 @@ public class Fraction {
 
     @Override
     public String toString() {
-        if (numerator>=denominator) {
-            int whole = numerator/denominator;
-            int rest = numerator  % denominator;
+        if (numerator >= denominator) {
+            int whole = numerator / denominator;
+            int rest = numerator % denominator;
             return String.format("%d and %d/%d", whole, rest, denominator);
         } else {
             return String.format("%d/%d", numerator, denominator);

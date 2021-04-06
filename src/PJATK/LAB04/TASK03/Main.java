@@ -6,13 +6,13 @@ public class Main {
         System.out.println(card);
         Card[] deck = new Card[52];
         int i = 0;
-        for (Face f: Face.values()) {
-            for (Color c: Color.values()) {
+        for (Face f : Face.values()) {
+            for (Color c : Color.values()) {
                 deck[i] = new Card(c, f);
                 i++;
             }
         }
-        for (Card d: deck) {
+        for (Card d : deck) {
             System.out.println(d);
         }
     }
