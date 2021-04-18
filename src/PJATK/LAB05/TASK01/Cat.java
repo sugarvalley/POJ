@@ -7,6 +7,6 @@ public class Cat extends Animal {
     }
 
     public String makeSound() {
-        return String.format("%s %s does WOOF!", color, name);
+        return String.format("%s %s does MEOW!", color, name);
     }
 }
