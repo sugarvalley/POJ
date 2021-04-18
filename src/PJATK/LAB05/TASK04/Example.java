@@ -1,11 +1,11 @@
 package PJATK.LAB05.TASK04;
 
 public class Example {
-    int age;
-    int height;
-    int weight;
-    String name;
-    String surname;
+    private int age;
+    private int height;
+    private int weight;
+    private String name;
+    private String surname;
 
     public Example(int age, int height, int weight, String name, String surname) {
         this.age = age;

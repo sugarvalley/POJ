@@ -3,7 +3,7 @@ package PJATK.LAB05.TASK02;
 import java.util.Arrays;
 
 public class Bookshop extends Shop {
-    String[] products;
+    private String[] products;
 
     public Bookshop(String address, int size, String[] products) {
         super(address, size);
